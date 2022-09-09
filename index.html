@@ -455,17 +455,17 @@
                         ПІДПИШІТЬСЯ НА РОЗСИЛКУ
                     </h3>
                     <form class="subscribe-form">
-                        <input type="email" name="mail" id="mail" placeholder="E-mail" class="subscribe-input">
-                        <label for="mail">
-                            <button type="submit" class="subscribe-btn">
-                                <div class="subscribe-contents">
-                                    <p>Підписатися</p>
-                                    <svg class="subscribe-icon" width="24" height="24">
-                                        <use href="./images/icon-send.svg#icon-icon-send"></use>
-                                    </svg>
-                                </div>
-                            </button>
-                        </label>                      
+                        <label for="">
+                            <input type="email" name="mail" placeholder="E-mail" class="subscribe-input">
+                        </label>
+                        <button type="submit" class="subscribe-btn">
+                            <div class="subscribe-contents">
+                                <span>Підписатися</span>
+                                <svg class="subscribe-icon" width="24" height="24">
+                                    <use href="./images/icon-send.svg#icon-icon-send"></use>
+                                </svg>
+                            </div>
+                        </button>                     
                     </form>
                 </div>
             </div>         
@@ -479,6 +479,23 @@
                     <use href="./images/close-btn.svg#icon-close-btn"></use>
                 </svg>
             </button>
+
+            <form>
+                <div>
+                    <input type="text" name="name">
+                    <label for="">Ім'я</label>
+                </div>
+
+                <div>
+                    <input type="tel" name="tel">
+                    <label for="">Телефон</label>
+                </div>
+
+                <div>
+                    <input type="email" name="mail">
+                    <label for="">Пошта</label>
+                </div>
+            </form>
         </div>
     </div>
 
