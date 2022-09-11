@@ -1081,5 +1081,9 @@ textarea {
 }
 
 .form-input-checkbox:checked + .checkbox-icon {
-    background-color: #188CE8;
+    border-color: #2196F3;
+    background-color: #2196F3;
+    background-image: url('../images/icon-check2.svg');
+    background-size: contain;
+    background-origin: border-box;
 }
